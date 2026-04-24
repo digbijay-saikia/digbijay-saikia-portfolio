@@ -18,8 +18,7 @@ const StarIcon = () => (
 const items = [
   'Graphics Design',
   'UI/UX Design',
-  'Website Development',
-  'App Design',
+  'Software Development',
 ];
 
 export default function ScrollingStrap() {
