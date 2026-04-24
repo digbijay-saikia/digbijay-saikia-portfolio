@@ -13,14 +13,14 @@ export default function Hero({ onFinish }) {
         
         {/* Left content with bottom-to-top animation */}
         <motion.div
-  className="relative md:w-1/2 mt-8 md:mt-0"
-  initial={{ opacity: 0, y: 80 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 1, delay: 0.4 }}
-  onAnimationComplete={() => {
-    if (onFinish) onFinish();
-  }}
->
+          className="relative md:w-1/2 mt-8 md:mt-0 text-center md:text-left"
+          initial={{ opacity: 0, y: 80 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 0.4 }}
+          onAnimationComplete={() => {
+            if (onFinish) onFinish();
+          }}
+        >
 
           <h1 className="text-4xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white">
             Hi<span className="inline-block animate-wave origin-[70%_70%]">👋</span>,<br />
